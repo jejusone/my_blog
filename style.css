@@ -1,0 +1,128 @@
+
+*{
+    box-sizing : border-box;
+    padding-left: 0 ;
+    margin: 0 ;
+    
+}
+.container {
+    /* max-width: 1100px; */
+    margin: 0 auto;
+    padding: 0 30px;
+}
+.navbar {
+  background-color: black;
+  color: white;
+  height: 60px;
+  
+}
+.navbar .container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  background-color: darkorange;
+}
+.navbar ul {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+}
+
+.navbar ul li {
+  margin-left: 20px;
+}
+
+.navbar .logo {
+  font-size: x-large;
+  font-weight: bold;
+  padding-right: 100px;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.navbar a:hover {
+  border-bottom: 2px white solid;
+  color: blue;
+}
+
+.greeting {
+    font-style: italic 
+}
+
+.github {
+    width: 200px;
+    height: auto;
+    position: absolute;
+    bottom: 0;
+
+}
+
+.Title {
+    font-weight: bold;
+    padding-left: 30px;
+
+}
+
+.time_table {
+    width: 100%;
+    max-width: 800px;
+    padding-left: 30px;
+    padding-top: 30px;
+    /* margin: 0 auto; */
+}
+
+.table {
+    width: 80%;
+    table-layout: fixed;
+    border-collapse: collapse;
+}
+th, td {
+    border:1px solid black;
+    box-sizing: border-box;
+    width: 100px;
+    height: 50px;
+    background-color: ghostwhite;
+}
+
+th:first-child, td:first-child {
+    width: 60px;
+    
+}
+th {
+    background-color: lightblue;
+    font-weight: bold;
+    text-align: center;
+}
+td:first-child{
+    background-color: lightgray;
+    font-weight: bold;
+    text-align: center;
+}
+
+.image_box {
+    display: flex;      /* 가로 정렬 */
+    justify-content: left; 
+    gap: 20px; 
+    padding: 30px;
+}
+.photo {
+    width: 200px;
+    height: 200px;
+    overflow: hidden; 
+    /* border-radius: 10px; 모서리 둥글게 */
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); */
+
+}
+img {
+    width: 100%; /* 부모 요소 크기에 맞게 조절 */
+    height: auto;
+    display: block;
+
+}
